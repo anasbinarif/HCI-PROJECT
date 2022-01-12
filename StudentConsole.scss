@@ -1,0 +1,39 @@
+.studentConsoleHeader{
+    width: auto;
+    height: 62px;
+    background: #242424;
+    display: flex;
+    align-items: center;
+    padding-left: 668px;
+    gap: 71%;
+    p{
+        margin-top: 0px;
+        color: #FFFFFF;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        padding-top: 17px;
+    }
+    .dropdown{
+        button{
+            background-color: #242424;
+            border: none;
+        }
+    }
+}
+
+.studentsTasks{
+    display: flex;
+    gap: 70px;
+    margin-top: 273px;
+    margin-left: 453px;
+    div{
+        :hover{
+            cursor: pointer;
+        }
+        p{
+            font: bolder;
+        }
+    }
+}

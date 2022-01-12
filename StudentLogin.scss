@@ -1,0 +1,68 @@
+.studentLoginHeader{
+    width: auto;
+    height: 62px;
+    background: #242424;
+    display: flex;
+    gap: 400px;
+    button{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+        background-color: #242424;
+        border: none;
+        margin-left: 4px;
+        :hover{
+            cursor: pointer;
+        }
+        p{
+            font-family: Lato;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+    p{
+        margin-top: 0px;
+        color: #FFFFFF;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        padding-top: 17px;
+    }
+}
+
+.studentConsoleButtons{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    margin-top: 18%;
+    width: 273px;
+    margin-left: 41vw;
+    input{
+        border: none;
+        background-color: #C4C4C4;
+        color: #4E4E4E;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        padding: 8px 0px 8px 11px;
+    }
+    button{
+        height: 37px;
+        width: 56px;
+        margin-left: 217px;
+        background: #4A7E49;
+        border: none;
+        :hover{
+            cursor: pointer;
+            color: #253b2d;
+        }
+        p{
+            margin: 0px;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.mainPageHeader{
+    width: auto;
+    height: 62px;
+    background: #242424;
+    p{
+        margin-top: 0px;
+        color: #FFFFFF;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        padding-top: 17px;
+    }
+}
+
+.mainPageButtons{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    margin-top: 18%;
+    width: 273px;
+    margin-left: 41vw;
+    button{
+        height: 50px;
+        background: #6F6E6E;
+        border: none;
+        :hover{
+            cursor: pointer;
+            color: #282829;
+        }
+    }
+    p{
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+        margin: 0px;
+    }
+}

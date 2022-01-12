@@ -1,0 +1,42 @@
+.schedulePageHeader {
+  width: auto;
+  height: 62px;
+  background: #242424;
+  display: flex;
+  gap: 400px;
+  button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    background-color: #242424;
+    border: none;
+    margin-left: 4px;
+    :hover {
+      cursor: pointer;
+    }
+    p {
+      font-family: Lato;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+  p {
+    margin-top: 0px;
+    color: #ffffff;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 17px;
+  }
+}
+.schedulePageTable{
+    table{
+        margin-top: 200px;
+        width: 800px;
+        margin-left: 347px;
+    }
+}
